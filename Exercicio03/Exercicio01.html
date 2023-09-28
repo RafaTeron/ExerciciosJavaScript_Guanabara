@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idade com foto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Verificando idade</h1>
+    </header>
+    <section>
+        <div id="formulario">
+            <form>
+                <label for="numero">Ano de Nacimento:</label>
+                <input type="number" id="idade" name="numero">
+            </form>
+            <form>
+                <label for="radio">Sexo:</label>
+                <input type="radio" name="sexo" value="masculino">Masculino
+                <input type="radio" name="sexo" value="feminino">Feminino
+            </form>
+            <input onclick="verificarIdade()" type="submit" value="Verificar">
+        </div>
+        <div id="msg"><h2>Preencha os dados acima para ver o resultado!</h2></div>
+        <div id="foto"></div>
+    </section>
+    <footer>
+        <p>&copy;CursoEmVideo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

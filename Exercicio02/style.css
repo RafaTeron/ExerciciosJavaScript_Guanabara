@@ -1,0 +1,39 @@
+body {
+    background-color: rgba(31, 3, 3, 0.851);
+}
+
+h1 {
+    text-align: center;
+    color: antiquewhite;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.845);
+}
+
+h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+section{
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 20px;
+    width: 350px;
+    margin:auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.845);
+}
+
+div {
+    font-size: 25px;
+    text-align: center;
+}
+footer{
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.845);
+}
+
+img{
+    width: 210px;
+    height: 210px;
+}
