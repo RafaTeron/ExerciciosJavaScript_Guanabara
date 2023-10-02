@@ -13,15 +13,20 @@
         <h1>Tabuada</h1>
     </header>
     <section>
-        <p>
+        <div>
                 <label for="numero">Numero:</label>
                 <input type="number" id="numero" name="numero">
-                <input onclick="tabuada()" type="button" value="Gerar Tabuada">
+                <input onclick="adicionar()" type="submit" value="Adicionar">
+        </div>
+        <p>
+        <select name="caixa" id="caixa" size="10"></select>
         </p>
         <p>
-        <select name="caixa" id="caixa" size="10">
-            <option>Digite um numero acima</option>
-        </select>
+            <input onclick="finalizar()" type="button" value="Finalizar">
+        </p>
+        <div id="msg"></div>
+        <p>
+            <input onclick="reiniciar()" type="button" value="Reiniciar">
         </p>
     </section>
     <footer>
